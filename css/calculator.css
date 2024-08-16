@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    /* background-color: blue; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.main1{
+    width: 320px;
+    height: 510px;
+    background-color: rgb(57, 56, 56);
+    border: none;
+    border-radius: 15px;
+}
+.sub1{
+    height: 10vh;
+    justify-content: center;
+
+
+}
+.sub1 input[type="text"]{
+    display: block;
+    margin-top: 10px;
+    width:92%;
+    align-items: center;
+    padding: 10px 0px 25px;
+    text-align: end;
+    padding-top: 21px;
+    margin-left: 14px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+}
+.sub1 input[type="text"]:focus{
+    outline: none;
+}
+
+.sub2{
+    width: 93%;
+    height: 80%;
+    margin-bottom: 2%;
+    margin-left: 12px;
+    text-align: center;
+}
+.sub{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 21%;
+}
+
+button{
+    display: block;
+    width: 17%;
+    height: 60%;
+    border-radius: 50%;
+    font-size: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(214, 213, 213);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+button :focus{
+    outline: none;
+}    
+
+.operator {
+    background-color: rgb(243, 147, 13);
+    color: white;
+}
+.equal
+{
+    background-color: rgb(243, 147, 13);
+    color: aliceblue;
+}
+/* .number{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+} */
