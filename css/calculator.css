@@ -13,8 +13,8 @@
     height: 100vh;
 }
 .main1{
-    width: 320px;
-    height: 510px;
+    width: 340px;
+    height: 600px;
     background-color: rgb(57, 56, 56);
     border: none;
     border-radius: 15px;
@@ -62,7 +62,7 @@
 button{
     display: block;
     width: 17%;
-    height: 60%;
+    height: 55%;
     border-radius: 50%;
     font-size: 15px;
     border-radius: 50%;
